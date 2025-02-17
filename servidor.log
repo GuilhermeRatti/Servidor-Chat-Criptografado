@@ -1,0 +1,11 @@
+2025-02-17 02:44:53,898 [INFO] __main__: Inicializando...
+2025-02-17 02:44:53,903 [INFO] __main__: Servidor rodando em 127.0.0.1:5000
+2025-02-17 02:45:04,766 [INFO] __main__: [('127.0.0.1', 57210)] Conexão estabelecida.
+2025-02-17 02:45:10,771 [INFO] __main__: [('127.0.0.1', 57210)] Mensagem recebida de 'gui': õi
+2025-02-17 02:45:11,798 [INFO] __main__: [('127.0.0.1', 57210)] Mensagem recebida de 'gui': oi
+2025-02-17 02:45:23,138 [INFO] __main__: [('127.0.0.1', 57215)] Conexão estabelecida.
+2025-02-17 02:45:28,463 [INFO] __main__: [('127.0.0.1', 57215)] Mensagem recebida de 'ed': alo
+2025-02-17 02:45:34,393 [ERROR] __main__: [('127.0.0.1', 57210)] Erro: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-02-17 02:45:34,393 [INFO] __main__: [('127.0.0.1', 57210)] Conexão encerrada.
+2025-02-17 02:45:36,531 [ERROR] __main__: [('127.0.0.1', 57215)] Erro: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+2025-02-17 02:45:36,531 [INFO] __main__: [('127.0.0.1', 57215)] Conexão encerrada.

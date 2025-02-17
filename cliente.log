@@ -1,0 +1,7 @@
+2025-02-17 02:45:23,126 [INFO] __main__: Inicializando...
+2025-02-17 02:45:23,136 [INFO] __main__: Conectado ao servidor com SSL.
+2025-02-17 02:45:25,128 [INFO] __main__: Usuario ed criado com sucesso.
+2025-02-17 02:45:25,134 [INFO] __main__: Chat criado com sucesso.
+2025-02-17 02:45:25,134 [INFO] __main__: Thread criada com sucesso.
+2025-02-17 02:45:28,463 [INFO] __main__: Usuario 'ed' enviou mensagem com sucesso: 'alo'
+2025-02-17 02:45:28,467 [INFO] __main__: Usuario 'gui' recebeu uma mensagem com sucesso: 'alo'
