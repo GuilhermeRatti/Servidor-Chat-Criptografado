@@ -21,7 +21,7 @@ Uma implementação simples de servidor de chat com um socket criptografado, ace
   - [logging](https://docs.python.org/3/library/logging.html) para fazer o controle do fluxo da aplicação.
   - [argparse](https://docs.python.org/3/library/argparse.html) para permitir argumentos de entrada na linha de código.
 - [OpenSSL](https://docs.openiam.com/docs-4.2.1.3/appendix/2-openssl) para a geração das chaves públicas e privadas.
-
+- [libxcb-cursor0](https://packages.debian.org/sid/libxcb-cursor0) instalado na máquina.
 ### Instalando bibliotecas de python via pip:
 
 ```bash
@@ -41,6 +41,12 @@ sudo apt install build-essential checkinstall zlib1g-dev -y
 Instalando o OpenSSL:
 ```bash
 sudo apt install openssl
+```
+
+### Instalando libxcb-cursor0 via terminal
+
+```bash
+sudo apt install libxcb-cursor0
 ```
 
 ## Uso
