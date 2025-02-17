@@ -9,7 +9,7 @@ Uma implementação simples de servidor de chat com um socket criptografado, ace
 - **Servidor Multi-thread:** Cada conexão de um cliente tem sua própria thread para comunicação eficiente.
 - **Setup Fácil:** Poucas linhas de comando simples para levantar tanto o servidor quanto clientes.
 
-## Prérequisitos
+## Pré-requisitos
 
 - Python 3.6 ou versões posteriores.
 - Bibliotecas de python requisitadas:
