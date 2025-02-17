@@ -22,7 +22,7 @@ class LoginDialog(QDialog):
     def __init__(self,conn):
         super().__init__()
         self.conn = conn
-        self.setWindowTitle("Chat Login")
+        self.setWindowTitle("Login do Chat")
         self.setFixedSize(300, 150)
         
         layout = QVBoxLayout()
@@ -67,7 +67,7 @@ class ChatWindow(QMainWindow):
     def __init__(self,username,conn):
         super().__init__()
         self.username = username
-        self.setWindowTitle(f"PyQt6 Chat - {self.username}")
+        self.setWindowTitle(f"Chat Criptografado - {self.username}")
         self.setGeometry(100, 100, 400, 500)
         self.conn = conn
         

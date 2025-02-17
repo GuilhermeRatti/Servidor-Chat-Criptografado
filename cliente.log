@@ -1,7 +1,11 @@
-2025-02-17 02:45:23,126 [INFO] __main__: Inicializando...
-2025-02-17 02:45:23,136 [INFO] __main__: Conectado ao servidor com SSL.
-2025-02-17 02:45:25,128 [INFO] __main__: Usuario ed criado com sucesso.
-2025-02-17 02:45:25,134 [INFO] __main__: Chat criado com sucesso.
-2025-02-17 02:45:25,134 [INFO] __main__: Thread criada com sucesso.
-2025-02-17 02:45:28,463 [INFO] __main__: Usuario 'ed' enviou mensagem com sucesso: 'alo'
-2025-02-17 02:45:28,467 [INFO] __main__: Usuario 'gui' recebeu uma mensagem com sucesso: 'alo'
+2025-02-17 08:54:40,521 [INFO] __main__: Inicializando...
+2025-02-17 08:54:40,524 [INFO] __main__: Conectado ao servidor com SSL.
+2025-02-17 08:54:43,535 [INFO] __main__: Usuario matheus criado com sucesso.
+2025-02-17 08:54:43,543 [INFO] __main__: Chat criado com sucesso.
+2025-02-17 08:54:43,544 [INFO] __main__: Thread criada com sucesso.
+2025-02-17 08:54:47,086 [INFO] __main__: Usuario 'matheus' enviou mensagem com sucesso: 'oi'
+2025-02-17 08:54:47,089 [INFO] __main__: Usuario 'guilherme' recebeu uma mensagem com sucesso: 'oi'
+2025-02-17 08:54:47,089 [INFO] __main__: Usuario 'matheus' recebeu uma mensagem com sucesso: 'oi'
+2025-02-17 08:54:56,502 [INFO] __main__: Usuario 'matheus' enviou mensagem com sucesso: 'oi'
+2025-02-17 08:54:56,504 [INFO] __main__: Usuario 'guilherme' recebeu uma mensagem com sucesso: 'oi'
+2025-02-17 08:54:56,511 [INFO] __main__: Usuario 'matheus' recebeu uma mensagem com sucesso: 'oi'

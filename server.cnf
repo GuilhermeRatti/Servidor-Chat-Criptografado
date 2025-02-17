@@ -5,7 +5,7 @@ x509_extensions = v3_req
 prompt = no
 
 [req_distinguished_name]
-CN = 10.9.8.122
+CN = 127.0.0.1
 
 [req_ext]
 subjectAltName = @alt_names
@@ -14,4 +14,4 @@ subjectAltName = @alt_names
 subjectAltName = @alt_names
 
 [alt_names]
-IP.1 = 10.9.8.122
+IP.1 = 127.0.0.1

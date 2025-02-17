@@ -4,6 +4,7 @@ import threading
 import json
 import logging
 import argparse
+
 # Lista global para armazenar as conexões ativas
 clientes = []
 # Lock para sincronizar o acesso à lista de clientes
@@ -70,20 +71,23 @@ def main(args):
 
         # Cria o socket TCP
         bindsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        bindsocket.bind((host, port))
+        bindsocket.bind((host,port))
         bindsocket.listen(5)
         logger.info(f"Servidor rodando em {host}:{port}")
     except Exception as error:
         logger.error(f"Servidor encontrou um erro ao tentar levantar um socket: {error}")
         return
     
+    print(f"Servidor rodando em {host}:{port}")
+
+    # Loop principal para aceitar conexões com novos usuários clientes
     while True:
         newsocket, fromaddr = bindsocket.accept()
         try:
             # Envolvendo o socket com SSL para criptografia
             connstream = context.wrap_socket(newsocket, server_side=True)
-        except ssl.SSLError as e:
-            logger.error("Erro na conexão SSL:", e)
+        except ssl.SSLError as error:
+            logger.error(f"Erro na conexão SSL: {error}")
             continue
         
         # Cria uma thread para tratar cada cliente de forma paralela

@@ -1,7 +1,0 @@
-pyqt6
-socket
-ssl
-threading
-json
-logging
-argparse
